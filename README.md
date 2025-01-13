@@ -1,2 +1,2 @@
-This is a boring web development repository just to grasp the basic
+This is a boring web development repository to grasp the basics
 @CQuesada18

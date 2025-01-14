@@ -9,5 +9,26 @@
     <p>This text is between paragraph tags</p>
     <h2>Check out the apple below</h2>
     <img src="apple.jpg" alt="An Apple" width="500" height="333" title="An apple">
+    <p>Use the simple addition calculator below</p>
+    
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+          <button onclick="appendToDisplay('1')">1</button>
+          <button onclick="appendToDisplay('2')">2</button>
+          <button onclick="appendToDisplay('3')">3</button>
+          <button onclick="appendToDisplay('4')">4</button>
+          <button onclick="appendToDisplay('5')">5</button>
+          <button onclick="appendToDisplay('6')">6</button>
+          <button onclick="appendToDisplay('7')">7</button>
+          <button onclick="appendToDisplay('8')">8</button>
+          <button onclick="appendToDisplay('9')">9</button>
+          <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
+          <button onclick="clearDisplay()" class="operator-btn">C</button>
+          <button onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src ="calculator.js"></script>
+
   </body>
 </html>
